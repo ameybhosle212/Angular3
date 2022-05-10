@@ -1,0 +1,36 @@
+.topBar{
+    background-color: darkslateblue;
+    margin: 0px;
+    padding: 0px;
+    height: 45px;
+}
+
+.topBarSearch{
+    height: 25px;
+    margin-left: 380px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+input[type="text"] , textarea {
+    background-color : whitesmoke; 
+}
+
+img{
+    border-radius: 50%;
+    border:2px solid #483d8b;
+    background: transparent;
+}
+
+.Profile{
+    position: absolute;
+    background: transparent;
+    left: 1400px;
+    top: 5px;
+    border: 0px;
+}
+
+button:hover{
+    background: #524795;
+}

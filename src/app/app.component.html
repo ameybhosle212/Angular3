@@ -1,0 +1,6 @@
+<app-top-bar></app-top-bar>
+<div class="df">
+    <app-app-bar  [data]="data" [arrayOfData]="arrayOfData"></app-app-bar>
+    <app-channels (event)="receiveMessage($event)"></app-channels>
+    <app-main-channels [ChatData]="ChatData"></app-main-channels>
+</div>

@@ -1,0 +1,37 @@
+.mainChannel{
+    background-color: #F0F0F0;
+    width: 1136px;
+    height: 675px;
+    position: absolute;
+    top: 45px;
+    left: 400px;
+}
+
+.DivMessageBox{
+    position: absolute;
+    top: 88%;
+    left: 175px;
+}
+
+input:focus {
+    border-width: 0 0 3px;
+    border-color: blue;
+}
+
+.composeMessageBox{
+    height: 30px;
+    line-height: 20px;
+    outline: 0;
+    border-color: white;
+
+}
+li{
+    display: inline-block;
+    margin-left: -20px;
+}
+
+.IconsBelowMessageBox{
+    position: absolute;
+    top: 94.5%;
+    left: 175px;
+}

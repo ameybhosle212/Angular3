@@ -1,0 +1,25 @@
+.channels{
+    background-color: #2c2656;
+    width: 100px;
+    height: 672.6px;
+    display: inline-block;
+}
+
+span:hover{
+    background:red;
+}
+
+p{
+    color: white;
+    font-size: 10px;
+}
+
+.channelClass{
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.channelClass1{
+    margin-top: 20px;
+    margin-left: 18px;
+}

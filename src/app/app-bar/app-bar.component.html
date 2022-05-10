@@ -1,0 +1,6 @@
+<div class="appBar">
+    <h1 style="padding-left: 10px;">{{data}}</h1>
+    <div *ngFor="let v of arrayOfData">
+        <h4 style="padding-left: 10px;" (click)="showValue(v)">{{v}}</h4>
+    </div>
+</div>
